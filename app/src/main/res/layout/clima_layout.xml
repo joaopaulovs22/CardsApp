@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClimaActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:id="@+id/idAssam"
+        android:backgroundTint="#5A32AC">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTextAssam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Assam"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textCurrent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTextAssam"
+                android:layout_marginLeft="40dp"
+                android:text="Current Location"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textGraus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTextAssam"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="25°"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgCloud"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_cloud"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/idhoraAssam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="11:25 AM"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:id="@+id/idDelhi"
+
+        android:backgroundTint="#03A9F4">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTextDelhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Delhi"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/idtextdays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTextDelhi"
+                android:layout_marginLeft="40dp"
+                android:text="2 days ago"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textDelhiGraus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idtextdays"
+                android:layout_marginLeft="40dp"
+                android:text="39°"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imgSun"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/baseline_sunny"
+                android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/idhoraDelhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="280dp"
+            android:text="01:05 PM"
+            android:textColor="@color/white"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#8BC34A">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTextDarj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Darjeeling"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/idtextweek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTextDarj"
+                android:layout_marginLeft="40dp"
+                android:text="2 weeks ago"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textGrausDarj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idtextweek"
+                android:layout_marginLeft="40dp"
+                android:text="12°"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgCloudSnow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_cloudy_snowing"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/idhoraDarj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="05:00 AM"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</LinearLayout>
