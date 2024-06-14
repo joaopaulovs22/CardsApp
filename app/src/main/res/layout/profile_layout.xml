@@ -8,4 +8,42 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:id="@+id/idCardJohn"
+        android:backgroundTint="#2196F3">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imgJohn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/man"/>
+            <TextView
+                android:id="@+id/idJohn"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="John"
+                android:layout_toRightOf="@+id/imgJohn"/>
+
+
+    </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_more_vert"
+            android:layout_marginLeft="180dp"
+
+            />
+
+    </com.google.android.material.card.MaterialCardView>
 </LinearLayout>
